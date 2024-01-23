@@ -86,7 +86,7 @@ def saveRawData(data):
 
 def main():
     print('Extracting...')
-    loginToWebsite('B21DCCN435', '24082003')
+    loginToWebsite('username', 'password')
     directToState()
     extractWebpageHtml()
     data = parseHtmlContentAndExtractData()
